@@ -4,8 +4,8 @@
         Options -MultiViews -Indexes
     </IfModule>
 
-    RewriteCond %{REQUEST_URI} !~public //追加
-    RewriteRule ^(.*)$ public/$1 [L] //追加
+    RewriteCond %{REQUEST_URI} !~public #//追加
+    RewriteRule ^(.*)$ public/$1 [L] #//追加
 
     RewriteEngine On
 
