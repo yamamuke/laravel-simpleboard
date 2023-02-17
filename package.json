@@ -15,7 +15,6 @@
     "dependencies": {
         "bootstrap": "^5.2.3"
     },
-    {
     "name": "laravel-posting-app",
     "description": "a really cool app",
     "version": "1.0.0",
